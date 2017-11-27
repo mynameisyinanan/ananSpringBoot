@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mk.mapper.IContentMapper">
+    
+    <!-- 查询全部 -->
+    <select id="query" resultType="hashmap">
+		SELECT
+			mc.id,
+			mc.title,
+			mc.create_time as createTime,
+			mc.status,
+			mc.loves,
+			mm.username
+		FROM
+			mk_content mc
+		LEFT JOIN mk_manager mm on mc.user_id = mm.id
+		order by mc.create_time desc
+    </select> 
+    
+    <!-- 查询总数 -->
+    <select id="count" resultType="int">
+    	SELECT
+			count(1) as count
+		FROM
+			mk_content
+    </select>
+ </mapper>
