@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="anan_ssm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="xclshop.war">
+      <element id="artifact" artifact-name="anan_ssm:war exploded" />
+    </root>
+  </artifact>
+</component>

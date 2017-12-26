@@ -1,0 +1,17 @@
+com\an\bean\User.class
+com\an\web\LoginConterll.class
+com\an\dao\PayInfoMapper.class
+com\an\dao\CategoryMapper.class
+com\an\bean\MKShopping.class
+com\an\dao\UserMapper.class
+com\an\dao\OrderMapper.class
+com\an\dao\ProductMapper.class
+com\an\bean\Order.class
+com\an\bean\OrderItem.class
+com\an\bean\Cart.class
+com\an\bean\PayInfo.class
+com\an\bean\Category.class
+com\an\dao\OrderItemMapper.class
+com\an\dao\CartMapper.class
+com\an\dao\MKShoppingMapper.class
+com\an\bean\Product.class
